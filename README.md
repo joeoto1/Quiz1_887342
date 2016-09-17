@@ -75,5 +75,19 @@ US_states =
     
     
     
+require 'prime'
+
+    
+    
+print "num = " 
+    
+num = gets.chomp.to_i
+    
+Prime.each(num) do |prime|
+     
+p prime  #=> 2, 3, 5, 7, 11, ...., 97
+    
+end
+   
                     
                     
